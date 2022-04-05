@@ -30,3 +30,44 @@ header a{
 header a:hover{
     color:#E4CAEF;
 }
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+h1{font-size: 1.8em;}
+h3{font-size: 2em;}
+h4{font-size: 0.96em}
+
+#Inicio1 .container{
+    text-align: right;
+    padding: 50px 12px;
+}
+
+@media (min-width: 480px){
+    
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+    #foter .container{
+        text-align: center;
+    }
+    @media (min-width: 480px){
+        #foter .container{
+            text-align: center;
+        }
+    
+        #foter .container svg{
+            color: #E4CAEF;
+        }
+    }
+}
