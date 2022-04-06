@@ -1,0 +1,142 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(250, 250, 250);
+    
+
+}
+h1{font-size: 1.8em;}
+
+
+
+.container {
+    position: relative;
+    width: 50%;
+
+  }
+  
+  .image {
+    display: absolute;
+    width: 200;
+    height: 250;
+
+  }
+  header .log{
+    margin: 0;
+    padding:25px 30px;
+    font-weight: bold;
+}
+header .contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50;
+    width: 50;
+    opacity: 0;
+    transition: .10s ease;
+    background-color: #D3ACE8;
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+    .contain{
+        max-width: 1400px;
+        margin:auto;
+    }
+    header{
+        background-color: rgb(250, 250, 250);
+    }
+ 
+    header .contain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+    }
+    header a{
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+    header a:hover{
+        color:#E4CAEF;
+    }
+
+    #i {
+        text-align: center;
+        color: #fff;
+        background-color: #E4CAEF;
+
+    }
+
+
+.topright {
+  position: absolute;
+  top: 160px;
+  right: 16px;
+  font-size: 18px;
+}
+.bottomleft {
+    position: absolute;
+    bottom: 3px;
+    left: -250px;
+    font-size: 12px;
+  }
+
+  #heros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 8.5vh;
+    color:#FCFCF4;
+    background-image:url(img3/DOG\ WALKING.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+  @media (min-width: 480px){
+    header .contain{
+      flex-direction: row;
+      justify-content: space-between;
+  }
+    header nav{
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 20px;
+  }
+
+    #foter .container{
+      text-align: center;
+  }
+
+  #foter .container svg{
+      color: #D3ACE8;
+  }
+  }
