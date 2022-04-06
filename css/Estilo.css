@@ -6,6 +6,19 @@
 header{
     background-color:rgb(250, 250, 250);
 }
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 8.5vh;
+    color:#FCFCF4;
+    background-color:#e3caef;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 header .logo{
     margin: 0;
     padding:25px 30px;
