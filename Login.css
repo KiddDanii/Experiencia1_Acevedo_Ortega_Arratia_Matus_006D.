@@ -40,7 +40,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 152px;
+    margin-top: 140px;
     background-size: cover;
 }
 
@@ -81,11 +81,6 @@ body{
     margin-left: 15%;
 }
 
-.password-olvidada a{
-    display: block;
-    text-align: center;
-}
-
 /*texto aún no eres parte y crear cuenta*/
 .input p, .input a{
     display: block;
@@ -93,8 +88,8 @@ body{
     margin: 10px;
 }
 
-/*este es para cambiar el color de olvidaste tu contraseña y crear cuenta*/
-.input a, .password-olvidada a{
+/*este es para cambiar el color de crear cuenta*/
+.input a{
     color: #a18cd1;
 }
 
