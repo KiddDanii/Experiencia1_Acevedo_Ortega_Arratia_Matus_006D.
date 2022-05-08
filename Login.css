@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+/*Caja Madre*/
+.login-container{
+    height: 43.75em;
+    width: 60em;
+    margin: 6em auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+/*Caja Hija 1 Login*/
+.login-info-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    padding-top: 0.5rem;
+    background-color: #f8f3ff;
+    
+
+}
+
+/*Caja formulario Login*/
+.formulario-login{
+    /*border: 1px solid red;*/
+    height: 59%;
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 152px;
+    background-size: cover;
+}
+
+.title h3{
+    text-transform: capitalize;
+    height: 25%;
+    font-size: 2.25;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 5px 0;
+
+}
+
+.input label{
+    display: block;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.input input[type="text"]{
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+.input input[type="password"]{
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+.input input[type="submit"]{
+    background-color: #a18cd1d0;
+    border-radius: 5px;
+    border: none;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.password-olvidada a{
+    display: block;
+    text-align: center;
+}
+
+/*texto aún no eres parte y crear cuenta*/
+.input p, .input a{
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+/*este es para cambiar el color de olvidaste tu contraseña y crear cuenta*/
+.input a, .password-olvidada a{
+    color: #a18cd1;
+}
+
+/*Caja hija 2 Img*/
+.img-container {
+    width: 50%;
+    padding-top: 2rem;
+    background-image: url(Img/Fondo.1.jpg);
+    background-size: cover;
+    
+}
+ /*Logo*/
+.Img_1 {
+    /*border: 2px solid black;*/
+    background-size: cover;
+    text-align: right;
+    margin-top: -5%;
+    
+}
+/*Texto 1*/
+.img-text_1 h1{
+    /*border: 2px solid pink;*/
+    background-size: cover;
+    text-align: center;
+    margin-top: 60px;
+}
+/*Texto 2*/
+.img-text_1 h2{
+    /*border: 2px solid blue;*/
+    background-size: cover;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+/*Img_Login*/
+.Img_2 {
+    /*border: 2px solid green;*/
+    background-size: cover;
+    margin-top: 50px;
+}
+
+
+
