@@ -19,7 +19,7 @@ body{
     overflow: hidden;
 }
 
-/*Caja Hija 1 Login*/
+/*Caja Hija 1 Registro*/
 .registro-info-container{
     width: 50%;
     display: flex;
@@ -32,7 +32,7 @@ body{
 
 }
 
-/*Caja formulario Login*/
+/*Caja formulario Registro*/
 .formulario-registro{
     /*border: 1px solid red;*/
     height: 59%;
@@ -127,7 +127,7 @@ body{
     
 }
 
-/*Img_Login*/
+/*Img_Registro*/
 .Img_2 {
     /*border: 2px solid green;*/
     background-size: cover;
