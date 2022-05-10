@@ -44,7 +44,7 @@ body{
     background-size: cover;
 }
 
-.title h3{
+.title h1{
     text-transform: capitalize;
     height: 25%;
     font-size: 2.25;
@@ -57,7 +57,7 @@ body{
 
 .input label{
     display: block;
-    font-size: 22px;
+    font-size: 19px;
     margin: 10px 0;
 }
 
@@ -80,6 +80,8 @@ body{
     width: 70%;
     margin-left: 15%;
 }
+
+
 
 /*texto aún no eres parte y crear cuenta*/
 .input p, .input a{
@@ -110,14 +112,14 @@ body{
     
 }
 /*Texto 1*/
-.img-text_1 h1{
+.img-text_1 h2{
     /*border: 2px solid pink;*/
     background-size: cover;
     text-align: center;
     margin-top: 60px;
 }
 /*Texto 2*/
-.img-text_1 h2{
+.img-text_1 h3{
     /*border: 2px solid blue;*/
     background-size: cover;
     font-size: 20px;
