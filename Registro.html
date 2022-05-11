@@ -16,13 +16,13 @@
     <div class="registro-container">
         <!--Contenedor de Registro-->
         <div class="registro-info-container">
-            <form class="formulario-registro" action="Inicio.html">
+            <form class="formulario-registro" action="Inicio.html" method="post">
                 <div class="title">
                     <h1>Registro</h1>
                 </div>
                 <div class="input">
                     <label for="usuario">Usuario:</label>
-                    <input placeholder="Ingrese Usuario" type="text" id="usuario" title="Debe ingresar un nombre de usuario" required>
+                    <input placeholder="Ingrese Usuario" type="text" id="usuario" onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122 || event.charCode == [32]))" title="Debe ingresar un nombre de usuario" required>
                 </div>
                 <div class="input">
                     <label for="correo">Correo Electrónico:</label>
