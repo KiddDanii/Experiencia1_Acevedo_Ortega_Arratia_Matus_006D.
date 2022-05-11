@@ -18,13 +18,13 @@
     <div class="login-container">
         <!--Contenedor de Login-->
         <div class="login-info-container">
-            <form class="formulario-login" action="Inicio.html">
+            <form class="formulario-login" action="Inicio.html" method="post">
                 <div class="title">
                     <h1>Login</h1>
                 </div>
                 <div class="input">
                     <label for="usuario">Usuario</label>
-                    <input placeholder="Ingrese Usuario" type="text" id="usuario" title="Debe ingresar su nombre de usuario" required>
+                    <input placeholder="Ingrese Usuario" type="text" id="usuario" onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122 || event.charCode == [32]))" title="Debe ingresar su nombre de usuario" required>
                 </div>
                 <div class="input">
                     <label for="contraseña">Password</label>
